@@ -2,12 +2,12 @@
 #include <string>
 
 void Error() {
-	std::cout << std::endl << "²»ÊÇ¿ÉÓÃµÄÃüÁî£¬¿ÉÊäÈë\"Register /?\"²é¿´°ïÖúÎÄµµ" << std::endl;
+	std::cout << std::endl << "ä¸æ˜¯å¯ç”¨çš„å‘½ä»¤ï¼Œå¯è¾“å…¥\"Register /?\"æŸ¥çœ‹å¸®åŠ©æ–‡æ¡£" << std::endl;
 	exit(0);
 }
 
 void Help() {
-	std::cout << std::endl << "ÓÃ·¨£º" << "Register id:[ÄúµÄid] pass:[ÄúµÄÃÜÂë] country:[ÄúµÄ¹ú¼Ò]"
+	std::cout << std::endl << "ç”¨æ³•ï¼š" << "Register id:[æ‚¨çš„id] pass:[æ‚¨çš„å¯†ç ] country:[æ‚¨çš„å›½å®¶]"
 		<< std::endl;
 
 	exit(0);
@@ -42,7 +42,7 @@ int main(const int argcount, char* c_arg[]) {
 			pass = strs[2].substr(5);
 			country = strs[3].substr(8);
 
-			std::cout << std::endl << "×¢²á³É¹¦" << std::endl << std::endl;
+			std::cout << std::endl << "æ³¨å†ŒæˆåŠŸ" << std::endl << std::endl;
 			std::cout << "id = " << id << std::endl;
 			std::cout << "pass = " << pass << std::endl;
 			std::cout << "country = " << country << std::endl;
