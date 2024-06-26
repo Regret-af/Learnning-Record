@@ -1,5 +1,5 @@
 ## 1、初始代码
-[代码](/Day3/stack attack/stack attack.cpp)
+[初始代码](https://github.com/Regret-af/Learnning-Record/blob/master/Day3/stack%20attack/stack%20attack.cpp)
 
 ## 2、初始代码的部分汇编代码
 ![栈攻击部分汇编代码如图所示](栈攻击汇编代码.jpg)
@@ -22,7 +22,7 @@
 
 理论成立，试验开始，最终我试验失败。
 
-**--原因为没有注意到如图红框所示汇编代码--**
+**_原因为没有注意到如图红框所示汇编代码_**
 ![重点汇编代码](栈攻击汇编代码（1）.jpg)
 
 翻译为：
